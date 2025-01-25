@@ -1,6 +1,6 @@
 # Kaip įkelti blogą
 
-## Sukūriamas naujas failas
+## Sukūriamas naujas failas turinys direktorijoje
 
 Failo struktūrą turi būti HTML formatu.
 Galima rašyti ir paprastą tekstą.
@@ -36,7 +36,7 @@ Apie HTML formatą galima paskaityti plačiau čia https://www.learn-html.org/en
 
 # Pavyzdys
 
-## Sukuriu naują failą PirmasBlogas.html
+## Sukuriu naują failą PirmasBlogas.html turinys direktorijoje
 
 ```html
 <h1>Mano blogo pavadinimas!</h1>
