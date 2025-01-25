@@ -1,3 +1,4 @@
+[
   {
     "title": "Jau egzistuojantis pavadinimas",
     "imageUrl": "https://example.com/image.jpg",
@@ -5,3 +6,4 @@
     "fileName": "sample-article.html",
     "date": "2025-01-25"
   },
+]
