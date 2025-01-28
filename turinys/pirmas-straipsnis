@@ -1,4 +1,47 @@
-<h1 class="text-3xl font-semibold text-blue-600">Mano blogo pavadinimas!</h1>
-<p class="my-4">Pirmas paragrafas.</p>
-<img class="rounded-lg shadow-lg" src="https://example.com/cloud-image.jpg" alt="Nuotraukyte">
-<a class="text-indigo-600 hover:text-indigo-800" href="https://example.com">Taip pat čia galite pažiūrėti nuorodą</a>
+  <!-- Header Section -->
+  <header class="bg-blue-600 text-white py-6">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h1 class="text-4xl font-bold">My Simple Tailwind CSS Blog</h1>
+      <p class="text-lg mt-2">Sharing thoughts, ideas, and creativity</p>
+    </div>
+  </header>
+
+  <!-- Blog Content Section -->
+  <main class="max-w-7xl mx-auto px-4 py-8">
+    <!-- Blog Post 1 -->
+    <article class="bg-white shadow-lg rounded-lg overflow-hidden mb-6">
+      <img src="https://picsum.photos/1200/400?random=1" alt="Blog Image 1" class="w-full h-64 object-cover">
+      <div class="p-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-2">The Beauty of Nature</h2>
+        <p class="text-gray-600">Nature has an incredible way of soothing our souls. Whether it’s the chirping of birds at dawn or the calming waves of the ocean, there’s beauty everywhere.</p>
+        <a href="#" class="text-blue-600 mt-4 block hover:underline">Read More</a>
+      </div>
+    </article>
+
+    <!-- Blog Post 2 -->
+    <article class="bg-white shadow-lg rounded-lg overflow-hidden mb-6">
+      <img src="https://picsum.photos/1200/400?random=2" alt="Blog Image 2" class="w-full h-64 object-cover">
+      <div class="p-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-2">Mastering Minimalism</h2>
+        <p class="text-gray-600">Minimalism isn't about having less but making room for what truly matters. From decluttering to mindful living, learn how to embrace simplicity.</p>
+        <a href="#" class="text-blue-600 mt-4 block hover:underline">Read More</a>
+      </div>
+    </article>
+
+    <!-- Blog Post 3 -->
+    <article class="bg-white shadow-lg rounded-lg overflow-hidden">
+      <img src="https://picsum.photos/1200/400?random=3" alt="Blog Image 3" class="w-full h-64 object-cover">
+      <div class="p-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-2">Tech Trends to Watch</h2>
+        <p class="text-gray-600">The tech world moves at lightning speed. Keep up with the latest innovations that are shaping our lives, from AI advancements to wearable tech.</p>
+        <a href="#" class="text-blue-600 mt-4 block hover:underline">Read More</a>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="bg-blue-600 text-white py-4">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p class="text-sm">&copy; 2025 My Simple Blog. All rights reserved.</p>
+    </div>
+  </footer>
