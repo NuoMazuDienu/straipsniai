@@ -1,10 +1,10 @@
   <!-- Header Section -->
-  <header class="bg-blue-600 text-white py-6">
+  <div class="bg-blue-600 text-white py-6">
     <div class="max-w-7xl mx-auto px-4 text-center">
       <h1 class="text-4xl font-bold">My Simple Tailwind CSS Blog</h1>
       <p class="text-lg mt-2">Sharing thoughts, ideas, and creativity</p>
     </div>
-  </header>
+  </div>
 
   <!-- Blog Content Section -->
   <main class="max-w-7xl mx-auto px-4 py-8">
