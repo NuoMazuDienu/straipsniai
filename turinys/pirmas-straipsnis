@@ -1,47 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Blog</title>
+  <style>
+    body {
+      background-color: #f3f4f6;
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #2563eb;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .blog-post {
+      background-color: white;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .blog-post img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .content {
+      padding: 1.5rem;
+    }
+    .content h2 {
+      color: #1f2937;
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+    .content p {
+      color: #4b5563;
+      margin-bottom: 1.5rem;
+    }
+    .quote {
+      background-color: #eef2ff;
+      padding: 1rem;
+      border-left: 4px solid #2563eb;
+      font-style: italic;
+      margin: 1.5rem 0;
+    }
+    .read-more {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #2563eb;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
   <!-- Header Section -->
-  <div style="background-color: #2563eb; color: white;" class="py-6">
-    <div class="max-w-7xl mx-auto px-4 text-center">
-      <h1 class="text-4xl font-bold">My Simple Tailwind CSS Blog</h1>
-      <p class="text-lg mt-2">Sharing thoughts, ideas, and creativity</p>
-    </div>
-  </div>
+  <header>
+    <h1>My Simple Tailwind-Inspired Blog</h1>
+    <p>Sharing thoughts, ideas, and creativity in a vibrant world</p>
+  </header>
 
   <!-- Blog Content Section -->
-  <main class="max-w-7xl mx-auto px-4 py-8">
+  <main class="container">
     <!-- Blog Post 1 -->
-    <article class="bg-white shadow-lg rounded-lg overflow-hidden mb-6">
-      <img src="https://picsum.photos/1200/400?random=1" alt="Blog Image 1" class="w-full h-64 object-cover">
-      <div class="p-6">
-        <h2 class="text-2xl font-bold text-gray-800 mb-2">The Beauty of Nature</h2>
-        <p class="text-gray-600">Nature has an incredible way of soothing our souls. Whether it’s the chirping of birds at dawn or the calming waves of the ocean, there’s beauty everywhere.</p>
-        <a href="#" class="text-blue-600 mt-4 block hover:underline">Read More</a>
+    <article class="blog-post">
+      <img src="https://picsum.photos/1200/400?random=1" alt="Blog Image 1">
+      <div class="content">
+        <h2>The Beauty of Nature</h2>
+        <p>Nature has an incredible way of soothing our souls. Whether it’s the chirping of birds at dawn or the calming waves of the ocean, there’s beauty everywhere. As John Muir once said:</p>
+        <blockquote class="quote">“The mountains are calling and I must go.”</blockquote>
+        <p>In our busy modern lives, it’s important to reconnect with nature, to breathe in the fresh air, and to simply be present in the beauty around us.</p>
+        <a href="#" class="read-more">Read More</a>
       </div>
     </article>
 
     <!-- Blog Post 2 -->
-    <article class="bg-white shadow-lg rounded-lg overflow-hidden mb-6">
-      <img src="https://picsum.photos/1200/400?random=2" alt="Blog Image 2" class="w-full h-64 object-cover">
-      <div class="p-6">
-        <h2 class="text-2xl font-bold text-gray-800 mb-2">Mastering Minimalism</h2>
-        <p class="text-gray-600">Minimalism isn't about having less but making room for what truly matters. From decluttering to mindful living, learn how to embrace simplicity.</p>
-        <a href="#" class="text-blue-600 mt-4 block hover:underline">Read More</a>
+    <article class="blog-post">
+      <img src="https://picsum.photos/1200/400?random=2" alt="Blog Image 2">
+      <div class="content">
+        <h2>Mastering Minimalism</h2>
+        <p>Minimalism isn't about having less but making room for what truly matters. From decluttering your home to adopting mindful living, simplicity can transform your life.</p>
+        <blockquote class="quote">“The more you own, the more it owns you.” — Unknown</blockquote>
+        <p>Imagine a life where your possessions serve you and not the other way around. A life filled with meaning, clarity, and freedom from unnecessary distractions.</p>
+        <a href="#" class="read-more">Read More</a>
       </div>
     </article>
 
     <!-- Blog Post 3 -->
-    <article class="bg-white shadow-lg rounded-lg overflow-hidden">
-      <img src="https://picsum.photos/1200/400?random=3" alt="Blog Image 3" class="w-full h-64 object-cover">
-      <div class="p-6">
-        <h2 class="text-2xl font-bold text-gray-800 mb-2">Tech Trends to Watch</h2>
-        <p class="text-gray-600">The tech world moves at lightning speed. Keep up with the latest innovations that are shaping our lives, from AI advancements to wearable tech.</p>
-        <a href="#" class="text-blue-600 mt-4 block hover:underline">Read More</a>
+    <article class="blog-post">
+      <img src="https://picsum.photos/1200/400?random=3" alt="Blog Image 3">
+      <div class="content">
+        <h2>Tech Trends to Watch</h2>
+        <p>The tech world moves at lightning speed. Keep up with the latest innovations that are shaping our lives, from AI advancements to wearable tech.</p>
+        <blockquote class="quote">“The best way to predict the future is to invent it.” — Alan Kay</blockquote>
+        <p>Staying ahead means embracing change and being curious about what's next. Technology has the power to transform our lives in unimaginable ways.</p>
+        <a href="#" class="read-more">Read More</a>
       </div>
     </article>
   </main>
 
   <!-- Footer Section -->
-  <footer class="bg-blue-600 text-white py-4">
-    <div class="max-w-7xl mx-auto px-4 text-center">
-      <p class="text-sm">&copy; 2025 My Simple Blog. All rights reserved.</p>
-    </div>
+  <footer>
+    <p>&copy; 2025 My Simple Blog. All rights reserved.</p>
   </footer>
+
+</body>
+</html>
