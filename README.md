@@ -26,7 +26,7 @@ Turimą HTML dokumentą galima įkelti į https://jsfiddle.net/ HTML sekciją ir
     "shortDescription": "Greitu metu įkelsime informacinius, edukacinius straipsnius.",
     "fileName": "pirmas-straipsnis",
     "date": "2025-01-25"
-  }
+  },
   // Naujai sukūriamas įrašas
   {
     "title": "Naujas blogas!",
@@ -80,8 +80,7 @@ Turimą HTML dokumentą galima įkelti į https://jsfiddle.net/ HTML sekciją ir
     "shortDescription": "Greitu metu įkelsime informacinius, edukacinius straipsnius.",
     "fileName": "pirmas-straipsnis",
     "date": "2025-01-25"
-  }
-  // Naujai sukūriamas įrašas
+  },
   {
     "title": "Naujas blogas!",
     "page": "naujas-straipsnis",
@@ -91,6 +90,7 @@ Turimą HTML dokumentą galima įkelti į https://jsfiddle.net/ HTML sekciją ir
     "fileName": "sample-article2.html",
     "date": "2025-01-28"
   },
+  // Naujai sukūriamas įrašas
   {
     "title": "Mano blogo pavadinimas!",
     "page": "naujas-straipsnis",
