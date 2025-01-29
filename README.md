@@ -7,6 +7,11 @@ Galima rašyti ir paprastą tekstą.
 
 Apie HTML formatą galima paskaityti plačiau čia https://www.learn-html.org/en/Basic_Elements
 
+Jeigu rašoma paprastu tekstu, galima pasitelkt kokį ChatGPT, kuris galėtų sustylint.
+Turimą HTML dokumentą galima įkelti į https://jsfiddle.net/ HTML sekciją ir paspausti Run.
+![image](https://github.com/user-attachments/assets/a7706e54-3ae7-4163-ad11-640d194a6bb3)
+
+
 ## Pridėti naujas eilutes į Straipsniai.json failą
 
 ### Naujos eilutės turi būti tokiu formatu:
