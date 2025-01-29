@@ -91,7 +91,6 @@ Turimą HTML dokumentą galima įkelti į https://jsfiddle.net/ HTML sekciją ir
     "fileName": "sample-article2.html",
     "date": "2025-01-28"
   },
-  // Naujai sukūriamas įrašas
   {
     "title": "Mano blogo pavadinimas!",
     "page": "naujas-straipsnis",
