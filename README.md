@@ -14,15 +14,19 @@ Apie HTML formatą galima paskaityti plačiau čia https://www.learn-html.org/en
 ```json
 [
   {
-    "title": "Jau egzistuojantis pavadinimas",
-    "imageUrl": "https://example.com/image.jpg",
-    "shortDescription": "This is a brief description of the article or content that gives the user an idea of what it's about.",
-    "fileName": "sample-article.html",
+    "title": "Pirmas straipsnis",
+    "page": "pirmas-straipsnis",
+    "category": "Mokymai",
+    "imageUrl": "https://nuomazudienu.lt/assets/images/pink-nmd.jpg",
+    "shortDescription": "Greitu metu įkelsime informacinius, edukacinius straipsnius.",
+    "fileName": "pirmas-straipsnis",
     "date": "2025-01-25"
-  },
+  }
   // Naujai sukūriamas įrašas
   {
     "title": "Naujas blogas!",
+    "page": "naujas-straipsnis",
+    "category": "Kategorija",
     "imageUrl": "https://example.com/image.jpg",
     "shortDescription": "This is a brief description of the article or content that gives the user an idea of what it's about.",
     "fileName": "sample-article2.html",
@@ -59,17 +63,24 @@ Apie HTML formatą galima paskaityti plačiau čia https://www.learn-html.org/en
 
 ## Pridedu įrašą Straipsniai.json faile
 
+(// simbolis reiškia ne struktūrą, o komentarą (iki eilutės galo))
+
 ```json
 [
   {
-    "title": "Jau egzistuojantis pavadinimas",
-    "imageUrl": "https://example.com/image.jpg",
-    "shortDescription": "This is a brief description of the article or content that gives the user an idea of what it's about.",
-    "fileName": "sample-article.html",
+    "title": "Pirmas straipsnis",
+    "page": "pirmas-straipsnis",
+    "category": "Mokymai",
+    "imageUrl": "https://nuomazudienu.lt/assets/images/pink-nmd.jpg",
+    "shortDescription": "Greitu metu įkelsime informacinius, edukacinius straipsnius.",
+    "fileName": "pirmas-straipsnis",
     "date": "2025-01-25"
-  },
+  }
+  // Naujai sukūriamas įrašas
   {
     "title": "Naujas blogas!",
+    "page": "naujas-straipsnis",
+    "category": "Kategorija",
     "imageUrl": "https://example.com/image.jpg",
     "shortDescription": "This is a brief description of the article or content that gives the user an idea of what it's about.",
     "fileName": "sample-article2.html",
@@ -78,9 +89,11 @@ Apie HTML formatą galima paskaityti plačiau čia https://www.learn-html.org/en
   // Naujai sukūriamas įrašas
   {
     "title": "Mano blogo pavadinimas!",
+    "page": "naujas-straipsnis",
+    "category": "Kategorija",
     "imageUrl": "https://example.com/image.jpg",
     "shortDescription": "This is a brief description of the article or content that gives the user an idea of what it's about.",
-    "fileName": "PirmasBlogas.html",
+    "fileName": "PirmasBlogas.html", //Naujai sukurto failo pavadinimas
     "date": "2025-01-28"
   },
 ]
