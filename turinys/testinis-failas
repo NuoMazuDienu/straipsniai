@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Blog Post</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            float: left;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+        }
+        .post-title {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .post-meta {
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            margin-bottom: 20px;
+        }
+        .post-content {
+            line-height: 1.6;
+        }
+        .post-image {
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Sample Blog</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="container">
+    <h2 class="post-title">Exploring the Beauty of Nature</h2>
+    <p class="post-meta">Posted on January 31, 2025 by John Doe</p>
+    <img src="https://www.pexels.com/photo/green-trees-under-blue-sky-123123/" alt="Nature Image" class="post-image">
+    <div class="post-content">
+        <p>Nature has always been a source of inspiration and tranquility. The lush green forests, the serene lakes, and the majestic mountains offer a sense of peace that is hard to find elsewhere. In this post, we will explore some of the most beautiful natural landscapes around the world.</p>
+        <h3>1. The Amazon Rainforest</h3>
+        <p>The Amazon Rainforest, often referred to as the "lungs of the Earth," is a vast tropical rainforest in South America. It is home to a diverse range of flora and fauna, many of which are found nowhere else on the planet.</p>
+        <h3>2. The Grand Canyon</h3>
+        <p>Located in Arizona, USA, the Grand Canyon is a colossal canyon carved by the Colorado River. Its immense size and intricate rock formations make it one of the most awe-inspiring natural wonders.</p>
+        <h3>3. The Great Barrier Reef</h3>
+        <p>Off the coast of Queensland, Australia, the Great Barrier Reef is the world's largest coral reef system. It boasts an incredible array of marine life and vibrant coral formations.</p>
+        <p>Exploring these natural wonders not only provides breathtaking views but also reminds us of the importance of preserving our planet's beauty for future generations.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 My Sample Blog. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
