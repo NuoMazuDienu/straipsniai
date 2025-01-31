@@ -24,7 +24,6 @@ Turimą HTML dokumentą galima įkelti į https://jsfiddle.net/ HTML sekciją ir
     "category": "Mokymai",
     "imageUrl": "https://nuomazudienu.lt/assets/images/pink-nmd.jpg",
     "shortDescription": "Greitu metu įkelsime informacinius, edukacinius straipsnius.",
-    "fileName": "pirmas-straipsnis",
     "date": "2025-01-25"
   },
   // Naujai sukūriamas įrašas
@@ -34,7 +33,6 @@ Turimą HTML dokumentą galima įkelti į https://jsfiddle.net/ HTML sekciją ir
     "category": "Kategorija",
     "imageUrl": "https://example.com/image.jpg",
     "shortDescription": "This is a brief description of the article or content that gives the user an idea of what it's about.",
-    "fileName": "sample-article2.html",
     "date": "2025-01-28"
   },
 ]
@@ -78,7 +76,6 @@ Turimą HTML dokumentą galima įkelti į https://jsfiddle.net/ HTML sekciją ir
     "category": "Mokymai",
     "imageUrl": "https://nuomazudienu.lt/assets/images/pink-nmd.jpg",
     "shortDescription": "Greitu metu įkelsime informacinius, edukacinius straipsnius.",
-    "fileName": "pirmas-straipsnis",
     "date": "2025-01-25"
   },
   {
@@ -87,17 +84,15 @@ Turimą HTML dokumentą galima įkelti į https://jsfiddle.net/ HTML sekciją ir
     "category": "Kategorija",
     "imageUrl": "https://example.com/image.jpg",
     "shortDescription": "This is a brief description of the article or content that gives the user an idea of what it's about.",
-    "fileName": "sample-article2.html",
     "date": "2025-01-28"
   },
   // Naujai sukūriamas įrašas
   {
     "title": "Mano blogo pavadinimas!",
-    "page": "naujas-straipsnis",
+    "page": "naujas-straipsnis",  //Toks pats failas turi būti sukurtas turinys direktorijoje
     "category": "Kategorija",
     "imageUrl": "https://example.com/image.jpg",
     "shortDescription": "This is a brief description of the article or content that gives the user an idea of what it's about.",
-    "fileName": "PirmasBlogas.html", //Naujai sukurto failo pavadinimas
     "date": "2025-01-28"
   },
 ]
