@@ -1,103 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Blog Post</title>
+    <title>Vaikų mokymosi stiliai</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f9f9f9;
+            color: #333;
         }
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
+            background-color: #800020;
+            color: white;
+            padding: 20px 0;
             text-align: center;
         }
-        nav {
-            background-color: #444;
-            overflow: hidden;
-        }
-        nav a {
-            color: #fff;
-            padding: 14px 20px;
-            text-decoration: none;
-            float: left;
-        }
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        .container {
-            width: 80%;
-            margin: 20px auto;
-            background-color: #fff;
+        main {
             padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
-        .post-title {
-            text-align: center;
-            font-size: 2em;
-            margin-bottom: 20px;
+        h1 {
+            color: #FFFFFF;
         }
-        .post-meta {
-            text-align: center;
-            font-size: 0.9em;
-            color: #777;
-            margin-bottom: 20px;
+        h2, h3, h4 {
+            color: #800020;
         }
-        .post-content {
-            line-height: 1.6;
+        section {
+            margin-bottom: 40px;
         }
-        .post-image {
-            width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-        }
-        footer {
-            text-align: center;
+        .keywords {
+            background-color: #f1f1f1;
             padding: 10px;
-            background-color: #333;
-            color: #fff;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            border-left: 4px solid #007BFF;
+            margin-top: 20px;
+        }
+        ul {
+            margin: 20px 0;
+            padding-left: 40px;
+        }
+        .pastraipa {
+            text-indent: 2rem; /* Indents the first line by 20px */
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>My Sample Blog</h1>
+    <h1>Vaikų mokymosi stiliai</h1>
+    <p>AbilityPath.com</p>
 </header>
 
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-</nav>
+<main>
+    <section>
+        <p class="pastraipa">Mokymosi stilius – tai terminas, reiškiantis skirtingus būdus, kuriais mes mokomės, apdorojame ir įsimename informaciją. Visi maži vaikai mokosi per prasmingą patyriminę veiklą – liesdami, veikdami ir judėdami. Be to, vaikai mokosi matydami ir girdėdami. Stebėdami vaiką, pradėsite pastebėti jo stiprybes ir polinkius, kurie atskleis jo mokymosi stilių.
+        </p>
+        <p class="pastraipa">Norint tinkamai lavinti vaiko stipriąsias puses, svarbu jį skatinti tobulėti. Vaikas gali puikiai pasirodyti įvairiose srityse, todėl reikia kurti įvairias patirtis, kurios padės jam ugdyti naujas stiprybes ir interesus bei praplėsti pasaulio suvokimą.</p>
+    </section>
 
-<div class="container">
-    <h2 class="post-title">Exploring the Beauty of Nature</h2>
-    <p class="post-meta">Posted on January 31, 2025 by John Doe</p>
-    <img src="https://www.pexels.com/photo/green-trees-under-blue-sky-123123/" alt="Nature Image" class="post-image">
-    <div class="post-content">
-        <p>Nature has always been a source of inspiration and tranquility. The lush green forests, the serene lakes, and the majestic mountains offer a sense of peace that is hard to find elsewhere. In this post, we will explore some of the most beautiful natural landscapes around the world.</p>
-        <h3>1. The Amazon Rainforest</h3>
-        <p>The Amazon Rainforest, often referred to as the "lungs of the Earth," is a vast tropical rainforest in South America. It is home to a diverse range of flora and fauna, many of which are found nowhere else on the planet.</p>
-        <h3>2. The Grand Canyon</h3>
-        <p>Located in Arizona, USA, the Grand Canyon is a colossal canyon carved by the Colorado River. Its immense size and intricate rock formations make it one of the most awe-inspiring natural wonders.</p>
-        <h3>3. The Great Barrier Reef</h3>
-        <p>Off the coast of Queensland, Australia, the Great Barrier Reef is the world's largest coral reef system. It boasts an incredible array of marine life and vibrant coral formations.</p>
-        <p>Exploring these natural wonders not only provides breathtaking views but also reminds us of the importance of preserving our planet's beauty for future generations.</p>
-    </div>
-</div>
 
-<footer>
-    <p>&copy; 2025 My Sample Blog. All rights reserved.</p>
-</footer>
+  <section>
+        <h2>Mokymosi stilių tipai</h2>
+        <p class="pastraipa">Yra keturi pagrindiniai mokymosi stilių tipai:</p>
+        <ul>
+            <li>Vizualinis (mokosi matydamas);</li>
+            <li>Audialinis (mokosi girdėdamas);</li>
+            <li>Lytėjimo (mokosi liesdamas);</li>
+            <li>Kinestetinis (mokosi judėdamas ir veikdamas).</li>
+        </ul>
+    </section>
+
+    <section>
+        <p class="pastraipa"><strong>Vizualiniai besimokantieji</strong> mokosi matydami. Vaikai, kurie yra vizualikai, linkę stebėti tėvų ar mokytojų kūno kalbą ir veido išraiškas, kad suprastų turinį, ir mokosi per demonstracijas bei aprašymus. Jie dažnai turi gerai išvystytą vaizduotę ir mąsto vaizdais. Klasėje per daug judesio ar veiksmo gali juos blaškyti. Vyresniems vaikams, kurie jau skaito, rašytinės instrukcijos gali padėti geriau suprasti žodinius nurodymus.
+        </p>
+        <p class="pastraipa"><strong>Audialiniai besimokantieji</strong> mokosi klausydamiesi. Vaikai, kurie mokosi girdėdami, įsisavina informaciją dalyvaudami diskusijose ir aptardami dalykus garsiai. Jiems naudingi žodiniai paaiškinimai ir diskusijos. Tačiau per didelis triukšmas gali juos blaškyti, todėl jie geriausiai mokosi tylioje aplinkoje.</p>
+        <p class="pastraipa"><strong>Lytėjimo besimokantieji</strong> mokosi liesdami. Vaikai, turintys šį mokymosi stilių, mėgsta veiklas ar projektus, kuriuose jie gali naudoti savo rankas. Vaikas gali mėgti piešti ar braižyti, kad lengviau įsimintų informaciją.
+        </p>
+        <p class="pastraipa"><strong>Kinestetiniai besimokantieji</strong> mokosi judėdami ir veikdami. Vaikai, kurie yra kinestetikai, geriausiai mokosi per fizinius pojūčius ir gali sunkiai išsėdėti ilgą laiką. Jiems tinkamiausias aktyvus mokymosi būdas, leidžiantis tyrinėti savo aplinką tiesiogiai.</p>
+    </section>
+
+  <section>
+        <h2>Kaip nustatyti vaiko mokymosi stilių?</h2>
+        <p class="pastraipa">Geriausias būdas suprasti vaiko mokymosi stilių – stebėti, ką jis daro. Jo veiksmai, interesai ir pasirinkimai gali parodyti, kaip jis apdoroja informaciją.</p>
+        <p class="pastraipa">Jei vaikas turi raidos sutrikimų, gali būti, kad dažniau kreipiamas dėmesys į tai, ko jis dar negeba padaryti. Vietoj to, reikėtų sutelkti dėmesį į jo stiprybes ir mėgstamas veiklas. Visi vaikai, net ir turintys didelių iššūkių, turi pomėgių ir polinkių. Jų atpažinimas padeda padidinti vaiko motyvaciją mokytis.
+</p>
+        <p class="pastraipa">Naudinga pasikalbėti su šeimos nariais ir vaiko specialistų komanda, kad sudaryti vaiko mėgstamų žaislų, daiktų ir veiklų sąrašą. Aktualūs klausimai:</p>
+        <ul>
+            <li>Kokius žaislus jis labiausiai mėgsta? Ar jam labiau patinka ramios veiklos ar aktyvus judėjimas?</li>
+            <li>Ar jis mėgsta skaityti knygas ir piešti paveikslėlius? Ar jam lengviau mokytis, kai jam parodoma, kaip kažką padaryti, užuot tik žodžiu paaiškinus?</li>
+            <li>Ar jis aktyvus? Ar jam patinka judėti ir dalyvauti aktyviose veiklose?</li>
+            <li>Ar jis mėgsta skaičius ir raides?</li>
+        </ul>
+    </section>
+    
+  <section>
+        <h2>Kaip paremti vaiko mokymosi stilių?</h2>
+        <p class="pastraipa">Tėvai ir mokytojai daro didelę įtaką vaikams. Suprasdami, kaip vaikas mokosi, galime geriau ir efektyviau jį mokyti. Ankstyvojo ugdymo programos dažnai organizuojamos taip, kad atitiktų skirtingus vaikų stiprybių ir poreikių aspektus.</p>
+        <p class="pastraipa">Tai apima:</p>
+        <ul>
+            <li>Pakankamą laiko tarpą judėjimui</li>
+            <li>Grupinius ratelius ir muzikinius užsiėmimus</li>
+            <li>Mokymosi centrus klasėje, kurie siūlo įvairias patirtis (pvz., skaitymo kampelį, kaladėlių zoną, smulkiosios motorikos veiklas, lauko žaidimus ir meną)</li>
+        </ul>
+        <p class="pastraipa">Toks organizavimas leidžia veikti vaikams kartu su įvairiais mokymosi stiliais, taip pat supažindina juos su naujomis patirtimis, kurių jie galbūt patys neieškotų.
+Suaugusieji gali ir turėtų padėti vaikams geriau suprasti savo stiprybes ir individualius skirtumus bei palaikyti jų iššūkius. Taip pat galima ieškoti realaus pasaulio patirčių, kurios praplečia vaiko mokymąsi. Pavyzdžiui, jei vaikas domisi žuvimis ir vandens gyvūnija, būtų puiku aplankyti jūrų muziejų. Vaikas lengviau įsimins informaciją ir giliau supras pasaulį, jei jis bus pateiktas jam suprantamu ir įdomiu būdu.
+        </p>
+    </section>
+
+    <section>
+        <h2>Šaltiniai</h2>
+        <p>Gardner, H. (1993). Multiple Intelligences: The Theory in Practice. New York, NY: BasicBooks.</p>
+        <p>Edwards, L. (2002). The Creative Arts: A Process Approach for Teachers and Children. Upper Saddle River, NJ: Merrill Prentice Hall.</p>
+    </section>
+    
+        <section>
+        <h2>Straipsnis</h2>
+        <p>https://abilitypath.org/ap-resources/childrens-learning-styles/</p>
+    </section>
+</main>
 
 </body>
 </html>
